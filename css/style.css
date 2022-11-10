@@ -1,0 +1,732 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+body {
+   /* font-family: 'Open Sans'; */
+   font-family: 'Oswald';
+}
+
+.header {
+   min-height: 740px;
+   background-image: url(/img/Rectangle.jpg);
+   background-size: cover;
+}
+.container {
+   max-width: 1130px;
+   padding: 0 15px;
+   margin: 0 auto;
+   
+}
+.header__top {
+   padding: 20px 0;
+   display: flex;
+   justify-content: space-between;
+}
+.header__top-logo {
+}
+.btn {
+   cursor: pointer;
+   transition:1s ease;
+}
+
+.btn:hover {
+   opacity: 0.7;
+}
+.header-btn {
+}
+
+.header__content {
+   
+}
+.header__h1 {
+   padding: 85px 0 35px;
+   max-width: 772px;
+   margin: 0 auto;
+
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 64px;
+   line-height: 95px;
+   text-align: center;
+   letter-spacing: 0.02em;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+.header__P {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+
+.header__info {
+   position: relative;
+   transform: translateY(50%);
+   min-height: 300px;
+   padding: 57px 130px;
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   background-color: #F7F7F7;
+}
+.header__info-card {
+ 
+}
+.chislo {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 72px;
+   line-height: 107px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #F7654A;
+}
+.let {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 53px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #000000;
+
+}
+.narinke {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 27px;
+   text-align: center;
+   color: #999999;
+
+}
+
+.main-h2{
+   margin-top: 250px;
+   margin-bottom: 60px;
+
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 53px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #404149;
+   }
+
+   /* cards arena********************************************* */
+
+   .section-cards {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 150px;
+   }
+   .section-card {
+      width: 350px;
+   }
+   .section-img {
+   }
+.h3 {
+      font-family: 'Oswald';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      color: #404149;
+      padding: 66px 0 20px;
+
+      position: relative;
+}
+
+.h3::before{
+   content: "";
+   position: absolute;
+   width: 55px;
+   height: 6px;
+   background-color: #F7654A;
+   left: 0;
+   top: 45px;
+}
+
+.arena-p {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #999999;
+
+ }
+
+
+ /* ************************************************************ */
+
+ .orange__zapros {
+   min-height: 181px;
+   background-color: #F7654A;
+   margin-bottom: 150px;
+}
+
+.orange__zapros-rows {
+   display: flex;
+   justify-content: space-between;
+}
+.perents {
+}
+.orange-h3 {
+   
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 71px;
+   letter-spacing: 0.02em;
+   color: #FFFFFF;
+
+   padding: 50px 0 5px;
+}
+.p-orange {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 36px;
+   letter-spacing: 0.02em;
+   color: #FFFFFF;
+   padding: 20px 0 35px;
+}
+.or-btn {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   letter-spacing: 0.05em;
+   color: #000000;
+   margin-top: 96px;
+   padding: 14px 30px 14px 63px;
+   background-color: #fff;
+   cursor: pointer;
+   position: relative;
+   transition:all 0.8s ease;
+}
+
+.or-btn:hover{
+   opacity: 0.8;
+}
+
+.or-btn::before{
+   content: "";
+   background-image: url(/img/namak.png);
+   background-repeat: no-repeat;
+   width: 18px;
+   height: 21px;
+   position: absolute;
+   left: 24px;
+   top: 16px;
+
+}
+ /* ******************************************** */
+
+ .grid-h2 {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 53px;
+   text-transform: uppercase;
+   color: #000000;
+   text-align: center;
+   margin-bottom: 66px;
+
+}
+.grid__perents {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 30px;
+   row-gap: 30px;
+   margin-bottom: 150px;
+}
+.grid__card {
+   width: 350px;
+   height: 250px;
+   background-color: #F7F7F7;
+   text-align: center;
+
+   padding: 59px 92px 59px 86px;
+}
+
+.grid__card img {
+   margin-bottom: 30px;
+   
+   /* text-align: center; */
+}
+
+.grid-h4 {
+   width: 172px;
+   /* text-align: center; */
+}
+
+.portfolio {
+   max-width: 1920px;
+   margin-bottom: 150px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* ***************************************************************************** */
+
+.otveti-h2{
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 53px;
+   text-transform: uppercase;
+   color: #000000;
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.or {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 36px;
+   color: #F7654A;
+   padding-left: 30px;
+   padding-bottom: 40px;
+   position: relative;
+}
+
+.or-verx {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 36px;
+   color: #F7654A;
+   padding-left: 30px;
+   padding-bottom: 40px;
+   position: relative;
+
+}
+
+.or-verx::before{
+   content: "";
+   background-image: url(/img/Polygonverch.svg);
+   background-repeat: no-repeat;
+   width: 15px;
+   height: 15px;
+   position: absolute;
+   left: 0;
+   left: 0;
+   bottom: 50px;
+}
+
+.or::before{
+   content: "";
+   background-image: url(/img/Polygon.png);
+   background-repeat: no-repeat;
+   width: 15px;
+   height: 15px;
+   position: absolute;
+   left: 0;
+   left: 0;
+   bottom: 50px;
+}
+
+
+.or-text {
+   padding-bottom: 40px;
+   max-width: 730px;
+
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #999999;
+}
+
+.or_or {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 36px;
+   color: #F7654A;
+   padding-left: 30px;
+   padding-bottom: 40px;
+   margin-bottom: 150px;
+   position: relative;
+
+}
+
+.or_or::before{
+   content: "";
+   background-image: url(/img/Polygon.png);
+   background-repeat: no-repeat;
+   width: 15px;
+   height: 15px;
+   position: absolute;
+   left: 0;
+   left: 0;
+   bottom: 50px;
+}
+
+/* *********************************************************** */
+
+.partner {
+   min-height: 364px;
+   background-color: #404149;
+}
+
+.partner-row {
+}
+.partner__row-h2 {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 53px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   text-align: center;
+
+   padding-top: 100px;
+   padding-bottom: 60px;
+
+}
+.ul-partner {
+   display: flex;
+   justify-content: space-between;
+}
+
+/* ************************************************* */
+
+.znak {
+   padding: 150px 0 150px;
+}
+.znak__h2 {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 53px;
+   text-transform: uppercase;
+   text-align: center;
+   color: #000000;
+   padding-bottom: 60px;
+}
+
+.znak-inner {
+   display: flex;
+   justify-content: space-between;
+}
+.znak-card {
+   width: 350px;
+   padding: 79px 30px 38px;
+   background-color: #F7F7F7;
+   margin-bottom: 30px;
+   position: relative;
+}
+
+.znak-card::before{
+   content: "“";
+   position: absolute;
+   left: 30px;
+   top: 0;
+   width: 42px;
+   height: 142px;
+
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 96px;
+   line-height: 142px;
+   text-transform: uppercase;
+   color: #F7654A;
+
+}
+
+.znak-p {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 21px;
+   color: #999999;
+
+
+}
+.ivan-p {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 21px;
+   line-height: 31px;
+   letter-spacing: 0.02em;
+   color: #000000;
+}
+
+.ivan-p span {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 21px;
+   line-height: 31px;
+   letter-spacing: 0.02em;
+   color: #F7654A;
+}
+
+.ivan__p-inner {
+   display: flex;
+   justify-content: space-between;
+}
+
+/* ********************************************************************orange 2 */
+
+.orange__zapros2 {
+   min-height: 181px;
+   background-color: #F7654A;
+   margin-bottom: 150px;
+}
+
+.orange__zapros-rows2 {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.orange-h3-2 {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 71px;
+   letter-spacing: 0.02em;
+   color: #FFFFFF;
+
+   padding: 50px 0 5px;
+}
+.p-orange2 {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 36px;
+   letter-spacing: 0.02em;
+   color: #FFFFFF;
+   padding: 20px 0 35px;
+}
+.or-btn2 {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   letter-spacing: 0.05em;
+   color: #000000;
+   margin-top: 96px;
+   padding: 14px 30px 14px 63px;
+   background-color: #fff;
+   cursor: pointer;
+   position: relative;
+   transition:all 0.8s ease;
+}
+
+.or-btn2:hover{
+   opacity: 0.8;
+}
+
+.or-btn2::before{
+   content: "";
+   background-image: url(/img/namak.png);
+   background-repeat: no-repeat;
+   width: 18px;
+   height: 21px;
+   position: absolute;
+   left: 24px;
+   top: 16px;
+
+}
+
+/* ***************************************contacts**************************** */
+
+
+.contacts-h2 {
+   margin-bottom: 144px;
+
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 53px;
+   text-transform: uppercase;
+   color: #000000;
+   text-align: center;
+}
+
+.contact__inner {
+   display: flex;
+   justify-content: space-around;
+}
+.contact-card {
+   width: 255px;
+}
+.seri {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 36px;
+   text-align: center;
+   color: #999999;
+   padding-bottom: 25px;
+   position: relative;
+}
+
+
+
+.seri::before{
+   content: "";
+   position: absolute;
+   background-image: url(/img/cont1.svg);
+   background-repeat: no-repeat;
+   height: 52px;
+    width: 40px;
+    top: -69px;
+    left: 110px;
+}
+
+
+.seri-tel {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 36px;
+   text-align: center;
+   color: #999999;
+   padding-bottom: 25px;
+   position: relative;
+}
+.seri-tel::before{
+   content: "";
+   position: absolute;
+   background-image: url(/img/cont2.svg);
+   background-repeat: no-repeat;
+   height: 52px;
+    width: 51px;
+    top: -69px;
+    left: 110px;
+}
+
+.seri-vr {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 36px;
+   text-align: center;
+   color: #999999;
+   padding-bottom: 25px;
+   position: relative;
+}
+.seri-vr::before{
+   content: "";
+   position: absolute;
+   background-image: url(/img/cont3.svg);
+   background-repeat: no-repeat;
+   height: 52px;
+    width: 51px;
+    top: -69px;
+    left: 110px;
+}
+
+
+.seri-e {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 36px;
+   text-align: center;
+   color: #999999;
+   padding-bottom: 25px;
+   position: relative;
+}
+.seri-e::before{
+   content: "";
+   position: absolute;
+   background-image: url(/img/cont4.svg);
+   background-repeat: no-repeat;
+   height: 52px;
+    width: 51px;
+    top: -57px;
+    left: 110px;
+}
+
+.cherni {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 36px;
+   text-align: center;
+   color: #000000;
+   margin-bottom: 150px;
+}
+
+.cherni-or {
+   font-family: 'Oswald';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 36px;
+   text-align: center;
+   color: #F7654A;
+}
+
+/* *******************************itog********* */
+
+.itog {
+   min-height: 82px;
+   background-color: #404149;
+}
+
+.itoginner {
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 0;
+
+}
+.itog1 {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #FFFFFF;
+}
+
+.itog2 {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   color: #FFFFFF;
+
+}
